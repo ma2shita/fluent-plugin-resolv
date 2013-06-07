@@ -1,16 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fluent/plugin/resolv/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-resolv"
-  spec.version       = Fluent::Plugin::Resolv::VERSION
+  spec.version       = "0.0.3"
   spec.authors       = ["Kohei MATSUSHITA"]
-  spec.email         = ["ma2shita+git@ma2shita.jp"]
+  spec.email         = ["ma2shita@ma2shita.jp"]
   spec.description   = %q{Fluent plugin, IP address resolv and rewrite.}
   spec.summary       = %q{Fluent plugin, IP address resolv and rewrite.}
-  spec.homepage      = "https://github/ma2shita/fluent-plugin-resolv"
+  spec.homepage      = "https://github.com/ma2shita/fluent-plugin-resolv"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

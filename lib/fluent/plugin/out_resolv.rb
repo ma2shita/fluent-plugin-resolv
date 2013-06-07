@@ -1,10 +1,9 @@
-require "fluent/plugin/resolv/version"
 require 'resolv'
 
 class Fluent::ResolvOutput < Fluent::Output
   Fluent::Plugin.register_output('resolv', self)
 
-  config_param :key_name,          :string, :default => 'host'
+  config_param :key_name,      :string, :default => 'host'
   config_param :remove_prefix, :string, :default => nil
   config_param :add_prefix,    :string, :default => nil
 
