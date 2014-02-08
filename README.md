@@ -1,4 +1,4 @@
-Fluent::Plugin::Resolv
+Fluent::Plugin::Resolv, a plugin for [Fluentd](http://fluentd.org)
 ======================
 
 Fluent plugin, IP address resolv and rewrite.
